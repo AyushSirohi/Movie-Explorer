@@ -48,7 +48,6 @@ MovieExplorer/
 ---
 
 ## 📸 Screenshots
-![alt text](<Screenshot 2025-09-06 221239.png>)
 ![alt text](<Screenshot 2025-09-06 222433.png>)
 ---
 
@@ -63,9 +62,3 @@ MovieExplorer/
 ## 🤝 Contributing
 Contributions are welcome!  
 Feel free to fork this repo and submit a pull request.
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
