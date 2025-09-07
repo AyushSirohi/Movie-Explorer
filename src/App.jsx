@@ -31,7 +31,7 @@ const App = () => {
 
   const fetchMovieDetails = async (id) => {
     try {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&i=${id}&plot=full`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&i=${id}&plot=full`);
       const data = await response.json();
       setSelectedMovie(data);
     } catch (error) {
