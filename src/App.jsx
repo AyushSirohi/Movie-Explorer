@@ -15,7 +15,7 @@ const App = () => {
     setLoading(true);
 
     try {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&s=${query}`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&s=${query}`);
       const data = await response.json();
       if (data.Search) {
         setMovies(data.Search);
